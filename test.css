@@ -1,0 +1,36 @@
+.container {
+   max-width: 1142px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.header {
+   padding-top: 50px;
+   padding-bottom: 30px;
+}
+.hero {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   position: relative;
+}
+.hero-text {
+   flex-basis: 60%;
+}
+.hero-text h1 {
+   font-size: clamp(26px, 4.5vw ,48px);
+}
+.hero-bg {
+   height: clamp(493px, 50vw, 852px);
+   flex-basis: calc(40% - 20px);
+   opacity: 0.5;
+   background: linear-gradient(90deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 120%);
+}
+
+.hero img {
+   position: absolute;
+   right: -10vw;
+   bottom: 0;
+   width: clamp(399px, 50vw, 996px);
+}
+
