@@ -734,7 +734,7 @@ html,body{
 .checkbox:checked + label,
 .checkbox:not(:checked) + label{
     position: relative;
-    padding-left: 24px;
+    padding-left: 24px; /**/
     cursor: pointer;
     top: 1px;
 }
