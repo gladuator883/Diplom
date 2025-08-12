@@ -1,14 +1,14 @@
 
 @font-face{
    font-family:'Montserrat regular';
-   src:local('Montserrat regular'),   /*test11gghtg*pptt*/
-   url("/files/fonts/Montserrat-Regular.ttf");
+   src:local('Montserrat regular'),   
+   url("/Diplome.test2-main/files/fonts/Montserrat-Regular.ttf");
 }
 
 @font-face{
    font-family:'Montserrat bold';
    src:local('Montserrat bold'),
-   url("/files/fonts/Montserrat-Bold.ttf"); 
+   url("/Diplome.test2-main/files/fonts/Montserrat-Bold.ttf"); 
 }
 
 
@@ -34,7 +34,7 @@ html,body{
     display: block;
     width: 97px;
     height: 30px;
-    background-image: url(/files/logo/logo.svg);
+    background-image: url(/Diplome.test2-main/files/logo/logo.svg);
     background-repeat: no-repeat;
     background-size: contain;
     position:relative;
@@ -88,7 +88,7 @@ html,body{
     content:'';
     display:inline-block; 
     align-items: center;
-    background-image: url(/files/icons/ellipse.svg);
+    background-image: url(/Diplome.test2-main/files/icons/ellipse.svg);
     width: 75px;
     height: 75px;
     background-repeat: no-repeat;
@@ -385,7 +385,7 @@ html,body{
    display: block;
    width: 100%;
    height: 100%;
-   background:url(/files/icons/gradient.png);
+   background:url(/Diplome.test2-main/files/icons/gradient.png);
    object-fit: cover;
    background-size: cover;
    background-repeat: no-repeat;
@@ -795,7 +795,7 @@ html,body{
    top: calc(50% - 9.5px);
    background-size: cover;
    background-repeat: no-repeat;
-   background-image: url(./files/icons/check_box.svg);
+   background-image: url(/Diplome.test2-main/files/icons/check_box.svg);
 }
 /* Стили для псевдоэлемента before с фоном и обводкой, когда пункт НЕ активен */
 .checkbox:not(:checked) + label::before{
@@ -822,7 +822,7 @@ html,body{
    background-color: transparent;
    background-repeat: no-repeat;
    background-size: cover;
-   background-image: url(./files/icons/check_box.svg);
+   background-image: url(/Diplome.test2-main/files/icons/check_box.svg);
 }
 .radio:checked + label::before{
    border-radius: 100%;
@@ -993,7 +993,7 @@ html,body{
     display: block;
     width: 97px;
     height: 30px;
-    background-image: url(/files/logo/logo.svg);
+    background-image: url(/Diplome.test2-main/files/logo/logo.svg);
     background-repeat: no-repeat;
     background-size: contain;
     position:relative;
@@ -1027,7 +1027,7 @@ html,body{
     content: '';
     display: inline-block;
     align-items: center;
-    background-image: url(/files/icons/ellipse.svg);
+    background-image: url(/Diplome.test2-main/files/icons/ellipse.svg);
     width: 75px;
     height: 75px;
     background-repeat: no-repeat;
