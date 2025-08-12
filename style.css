@@ -1,7 +1,7 @@
 
 @font-face{
    font-family:'Montserrat regular';
-   src:local('Montserrat regular'),
+   src:local('Montserrat regular'),   /*test11gghtg*pptt*/
    url("/files/fonts/Montserrat-Regular.ttf");
 }
 
@@ -734,7 +734,7 @@ html,body{
 .checkbox:checked + label,
 .checkbox:not(:checked) + label{
     position: relative;
-    padding-left: 24px;
+    padding-left: 24px; /**/
     cursor: pointer;
     top: 1px;
 }

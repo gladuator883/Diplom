@@ -1,4 +1,4 @@
-
+////pppppg
 const EMAIL_REGEXP = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu;
 const input = document.querySelector('input');
 
@@ -36,7 +36,7 @@ input.addEventListener('input', onInput);
        });
        }
 
-// Button Up
+// Button Upff
 
        window.onscroll = function(){scrollFunction()};
 
@@ -62,3 +62,6 @@ input.addEventListener('input', onInput);
                document.getElementById('btnUp').className = 'button-up hidden';
            }
        }
+
+
+       //testtt
