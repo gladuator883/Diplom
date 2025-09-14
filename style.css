@@ -1597,18 +1597,14 @@ font-family: 'Montserrat regular';
 }
 
 
-
+/*
 @media (max-width:934px){
     .nav{
         margin-left: 120px;
-        /* gap: min(9vw, 100px); */
         gap: max(77px);
     }
 
     .header-wrapper{
-        /*
-        gap: 21px;
-        */
         gap: 0px;
     }
 
@@ -1627,3 +1623,4 @@ font-family: 'Montserrat regular';
         top: 202px;
     }
 }
+*/
