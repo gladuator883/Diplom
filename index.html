@@ -12,6 +12,7 @@
         <div class="container">
             <div class="header-wrapper">
                 <div class="logo"></div>
+                <button class="fitness-menu" onclick="openModal()"></button>
                 <nav class="nav">
                     <a href="#meropriyatia" class="nav-link">Мероприятия</a>
                     <a href="#raspisanie" class="nav-link">Расписание</a>
@@ -136,6 +137,16 @@
         </div>
     </footer>
         <a href="#headerTop" class="button-up hidden" id="btnUp">Наверх</a>
+        <div class="modal" id="modal">
+        <div class="logo3"></div>
+            <nav class="nav _modal">
+                <a href="#meropriyatia" class="nav-link">Мероприятия</a>
+                <a href="#raspisanie" class="nav-link">Расписание</a>
+                <a href="#company" class="nav-link">О компании</a>
+            </nav>
+            <div class="background-grey2"></div>
+            <button class="modal-close" onclick="closeModal()"></button>
+        </div>
         <script src="./note.js"></script>
 </body>
 </html>

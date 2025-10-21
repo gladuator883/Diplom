@@ -65,3 +65,29 @@ input.addEventListener('input', onInput);
 
 
        //testtt
+
+      // Menu
+
+      function openModal() {
+           document.getElementById("modal").style.top = "0px";
+      }
+
+      function closeModal() {
+           document.getElementById("modal").style.top = "-600px";
+      }
+
+
+     //delete text
+
+     function myFunction(x) {
+    const $box = document.querySelector('.prove')
+     if (x.matches) { // If media query matches
+    $box.innerText = "";
+     } else {
+    $box.innerText = "© 2022, Все права защищены";
+    }
+    }
+
+    const x = window.matchMedia("(max-width: 768px)")
+    myFunction(x) // Call listener function at run time
+    x.addListener(myFunction) // Attach listener function on state changes
