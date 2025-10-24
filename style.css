@@ -1594,7 +1594,7 @@ position: relative;
 
     .hero-wrapper {
         position: absolute;
-        right: -2px;
+        right: 15px;
         width: clamp(399px, 71vw, 395px);
         top: 190px;
     }
