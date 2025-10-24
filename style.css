@@ -1,18 +1,3 @@
-
-
-@font-face {
-    font-family: 'Montserrat regular';
-    font-display: auto;
-    src: local('Montserrat regular'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
-}
-
-@font-face {
-    font-family: 'Montserrat bold';
-    font-display: auto;
-    src: local('Montserrat bold'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
-}
-
-
 @font-face{
    font-family:'Montserrat regular';
    src:local('Montserrat regular'),   
